@@ -1,0 +1,61 @@
+
+.intro-page{
+    background-color: black;
+    height: 700px;
+}
+.intro{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.intro h1{
+    font-size: 35px;
+    color: rgb(240, 114, 23);
+}
+.intro p{
+    font-size: 20px;
+    margin-top: 30px;
+    text-wrap: wrap;
+    color: white;
+}
+.intro .btn-section{
+    margin-top: 100px;
+}
+.intro .btn-section a{
+    padding: 10px 50px;
+    margin-right: 50px ;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    
+}
+.intro .btn-section a:hover{
+    border: 1px solid rgb(240, 114, 23);
+    background-color: black;
+    color: rgb(240, 114, 23);
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 556px) {
+    .intro-page{
+        text-align: center;
+    }
+    .intro{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+    .intro .btn-section{
+        margin-top: 100px;
+    }
+    .intro .btn-section a{
+        margin-right: 20px;
+    }
+}

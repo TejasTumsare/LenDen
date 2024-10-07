@@ -1,0 +1,57 @@
+.about-section{
+    background: linear-gradient(180deg,black 50%,white 50%);
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+.about-card{
+    height: auto;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(100, 80, 89);
+    border-radius: 20px;
+    padding: 30px 50px;
+    text-align: center;
+}
+.about-card h1{
+    font-size: 35px;
+    color: rgb(240, 114, 23);
+}
+.about-card p{
+    color: black;
+    margin: 30px 0px;
+    font-size: 18px; 
+}
+.about-card .learn-more{
+    margin-bottom: 20px;
+}
+.about-card .learn-more a{
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.about-card .learn-more a:hover{
+    color: rgb(240, 114, 23);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 556px){
+    .about-section{
+        padding: 100px 30px;
+    }
+    .about-card{
+        width: auto;
+        padding: 0;
+    }
+    .about-card h1{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .about-card p{
+        font-size: 14px;
+        margin: 30px 20px;
+    }
+    .about-card .learn-more a{
+        font-size: 16px;
+    }
+}

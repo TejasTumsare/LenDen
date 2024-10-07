@@ -1,0 +1,151 @@
+.contact-us {
+  padding: 100px 0px;
+}
+.contact-us h1 {
+  color: rgb(240, 114, 23);
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.contact-us p {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-us-form {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 30px #0000001a;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 17px;
+}
+
+.contact-form label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.contact-form button {
+  max-width: 500px;
+  min-width: 270px;
+  height: 50px;
+  background-color: rgb(240, 114, 23);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.contact-form button:hover {
+  background-color: rgb(200, 95, 20);
+}
+
+.map {
+  padding: 100px 0px;
+  background-color: black;
+}
+.map h1 {
+  color: rgb(240, 114, 23);
+  font-size: 45px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.map .location {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.map iframe {
+  width: 50%;
+  height: 350px;
+}
+
+.contact-info p {
+  font-size: 20px;
+  color: white;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.contact-info p .icons {
+  margin-right: 20px;
+  height: 30px;
+  width: 30px;
+  fill: white;
+}
+
+@media (max-width: 576px) {
+  .contact-us {
+    padding: 100px 20px;
+  }
+  .contact-us h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .contact-us p {
+    position: relative;
+    transform: none;
+    left: 0;
+    width: 100%;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+  }
+
+  .map{
+    display: flex;
+    flex-direction: column;
+  }
+  .map iframe {
+    width: 100%;
+    margin: 30px 10px;
+    height: 350px;
+  }
+  .contact-info{
+    margin: 30px 10px;
+  }
+  .contact-info p {
+    font-size: 16px;
+    color: white;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+}
