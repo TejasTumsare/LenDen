@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lenden.github.io/static/css/main.326f6237.css",
+    "main.js": "/lenden.github.io/static/js/main.ce265246.js",
+    "static/js/453.70cb00bb.chunk.js": "/lenden.github.io/static/js/453.70cb00bb.chunk.js",
+    "static/media/car.jpg": "/lenden.github.io/static/media/car.5dd57acfd675e9c8f34b.jpg",
+    "static/media/bike.jpg": "/lenden.github.io/static/media/bike.61364bc1aaa09cb02697.jpg",
+    "static/media/electronics.jpg": "/lenden.github.io/static/media/electronics.7987b5e3b3faaffc96b7.jpg",
+    "static/media/john-doe.avif": "/lenden.github.io/static/media/john-doe.bf044d17331ff5e831d6.avif",
+    "static/media/lara-corp.avif": "/lenden.github.io/static/media/lara-corp.7c52478a09d7fcd3caf3.avif",
+    "static/media/iphone.jpg": "/lenden.github.io/static/media/iphone.062569caa5d6552a786d.jpg",
+    "static/media/about-img.avif": "/lenden.github.io/static/media/about-img.7d13f8353e3a62789eba.avif",
+    "index.html": "/lenden.github.io/index.html",
+    "main.326f6237.css.map": "/lenden.github.io/static/css/main.326f6237.css.map",
+    "main.ce265246.js.map": "/lenden.github.io/static/js/main.ce265246.js.map",
+    "453.70cb00bb.chunk.js.map": "/lenden.github.io/static/js/453.70cb00bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.326f6237.css",
+    "static/js/main.ce265246.js"
+  ]
+}
